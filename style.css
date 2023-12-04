@@ -4,29 +4,63 @@ body {
 }
 body img {
   border-radius: 50% 50% 50% 50%/50% 50% 50% 50%;
-  border: solid 3px white;
+  border: solid 1px white;
+  width: 2em;
 }
-body .daniel {
+body .contain {
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+  padding: 10em;
+}
+body .contain h1 {
+  font-weight: 600;
+  font-size: 1em;
+}
+body .contain p {
+  font-weight: 500;
+  font-size: 0.7em;
+  opacity: 70%;
+}
+body .contain h3 {
+  opacity: 50%;
+}
+body .contain .daniel {
+  grid-area: 1/1/3/3;
+  color: hsl(0, 0%, 100%);
   background-color: hsl(263, 55%, 52%);
   background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Wilson-3/b1ca45ff17708d5221506ad2152126a3def3332d/1.TRAIL/01.The-Field/sass-exos/testimonials/images/bg-pattern-quotation.svg?token=BEC4HPTIYD5GACSGW5DZTELFNWZXQ);
   background-repeat: no-repeat;
   background-position: 70% top;
-}
-body .daniel .daniel__titre {
   padding: 1em;
+  border-radius: 1em;
 }
-body .daniel .daniel__paragraphe {
-  padding: 1em;
-}
-body .jonathan {
+body .contain .jonathan {
   background-color: hsl(217, 19%, 35%);
+  grid-area: 1/3/3/4;
+  padding: 1em;
+  border-radius: 1em;
+  color: hsl(0, 0%, 100%);
 }
-body .jeanette {
+body .contain .jeanette {
   background-color: hsl(0, 0%, 100%);
+  grid-area: 3/1/5/2;
+  padding: 1em;
+  border-radius: 1em;
 }
-body .patrick {
+body .contain .patrick {
   background-color: hsl(219, 29%, 14%);
+  grid-area: 3/2/5/4;
+  padding: 1em;
+  border-radius: 1em;
+  color: hsl(0, 0%, 100%);
 }
-body .kira {
+body .contain .kira {
   background-color: hsl(0, 0%, 100%);
+  grid-area: 1/4/5/5;
+  padding: 1em;
+  border-radius: 1em;
 }/*# sourceMappingURL=style.css.map */
