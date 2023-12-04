@@ -1,0 +1,32 @@
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: hsl(210, 46%, 95%);
+}
+body img {
+  border-radius: 50% 50% 50% 50%/50% 50% 50% 50%;
+  border: solid 3px white;
+}
+body .daniel {
+  background-color: hsl(263, 55%, 52%);
+  background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Wilson-3/b1ca45ff17708d5221506ad2152126a3def3332d/1.TRAIL/01.The-Field/sass-exos/testimonials/images/bg-pattern-quotation.svg?token=BEC4HPTIYD5GACSGW5DZTELFNWZXQ);
+  background-repeat: no-repeat;
+  background-position: 70% top;
+}
+body .daniel .daniel__titre {
+  padding: 1em;
+}
+body .daniel .daniel__paragraphe {
+  padding: 1em;
+}
+body .jonathan {
+  background-color: hsl(217, 19%, 35%);
+}
+body .jeanette {
+  background-color: hsl(0, 0%, 100%);
+}
+body .patrick {
+  background-color: hsl(219, 29%, 14%);
+}
+body .kira {
+  background-color: hsl(0, 0%, 100%);
+}/*# sourceMappingURL=style.css.map */

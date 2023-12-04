@@ -1,0 +1,46 @@
+$violet: hsl(263, 55%, 52%);
+$darkblue: hsl(217, 19%, 35%);
+$verydarkblue: hsl(219, 29%, 14%);
+$white: hsl(0, 0%, 100%);
+$grisclaire: hsl(0, 0%, 81%);
+$blue: hsl(210, 46%, 95%);
+@mixin padding {
+    padding:1em;
+    
+}
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: $blue;
+    img{
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+        border:solid 3px white;
+
+    }
+    .daniel{
+        background-color: $violet;
+        background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Wilson-3/b1ca45ff17708d5221506ad2152126a3def3332d/1.TRAIL/01.The-Field/sass-exos/testimonials/images/bg-pattern-quotation.svg?token=BEC4HPTIYD5GACSGW5DZTELFNWZXQ);
+        background-repeat: no-repeat;
+        background-position: 70%top;
+        .daniel__titre{
+            padding:1em;    
+        }
+        .daniel__paragraphe{
+            padding:1em;
+        }
+    }
+    .jonathan{
+        background-color:$darkblue;
+    }
+    .jeanette{
+        background-color: $white;
+    }
+    .patrick{
+        background-color: $verydarkblue;
+    }
+    .kira{
+        background-color: $white;
+    }
+
+
+}
