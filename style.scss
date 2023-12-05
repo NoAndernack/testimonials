@@ -12,8 +12,9 @@ $blue: hsl(210, 46%, 95%);
 
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    background-color: $grisclaire;
+    background-color: $blue;
     width: 100%;
+    
 
 
     img {
@@ -24,6 +25,7 @@ body {
     }
 
     .contain {
+       
         
 
         h1 {
@@ -123,6 +125,7 @@ body {
         grid-template-rows: repeat(4, 1fr);
         grid-column-gap: 2em;
         grid-row-gap: 2em;
+        padding:5em;
 
     }
 

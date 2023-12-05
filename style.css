@@ -1,6 +1,6 @@
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
-  background-color: hsl(0, 0%, 81%);
+  background-color: hsl(210, 46%, 95%);
   width: 100%;
 }
 body img {
@@ -87,6 +87,7 @@ body .contain .kira {
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 2em;
     grid-row-gap: 2em;
+    padding: 5em;
   }
   .daniel {
     grid-area: 1/1/2/2;
